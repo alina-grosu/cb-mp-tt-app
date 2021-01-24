@@ -6,8 +6,8 @@
  Basic exception handling used, unit tests provided only for critical functionality.  
 
  build: mvn clean install  
- if build and deployment to Tomcat succeeds the endpoints should be available on following URLs:  
- http://localhost:8080/cd-mp-tt-1.0-SNAPSHOT/userdetails/getencrypted
+ if build and deployment to Tomcat succeeds (use cd-mp-tt-1.0-SNAPSHOT.war) the endpoints should be available on following URLs:  
+ http://localhost:8080/cd-mp-tt-1.0-SNAPSHOT/userdetails/getencrypted  
  http://localhost:8080/cd-mp-tt-1.0-SNAPSHOT/userdetails/getdecrypted  
 
  /getencrypted request body example:  
